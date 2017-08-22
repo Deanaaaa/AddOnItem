@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/q_id_img_tab5_mine_pass_order"
+        android:layout_width="25dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/mine_pass_order_icon"/>
+    <TextView
+        android:id="@+id/q_id_text_tab5_mine_pass_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="15dp"
+        android:text="历史订单"
+        android:textSize="17sp"
+        android:textColor="#333333"/>
+    <ImageView
+        android:id="@+id/q_id_img_tab5_mine_pass_order_more"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="17dp"
+        android:layout_height="20.33dp"
+        android:src="@drawable/mine_more_icon"/>
+
+</LinearLayout>

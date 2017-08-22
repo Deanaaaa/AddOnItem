@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="#ffffff">
+    <ImageView
+        android:id="@+id/q_id_img_tab5_mine_us"
+        android:layout_width="26.33dp"
+        android:layout_height="26.33dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/mine_us_icon"/>
+    <TextView
+        android:id="@+id/q_id_text_tab5_mine_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="15dp"
+        android:text="关于我们"
+        android:textSize="17sp"
+        android:textColor="#333333"/>
+    <ImageView
+        android:id="@+id/q_id_img_tab5_mine_us_more"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="17dp"
+        android:layout_height="20.33dp"
+        android:src="@drawable/mine_more_icon"/>
+
+</LinearLayout>

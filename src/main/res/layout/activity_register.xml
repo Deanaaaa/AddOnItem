@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/q_register_layout"
+    android:background="@drawable/register_background"
+    >
+
+    <Button
+        android:id="@+id/q_id_register_back"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="15.33dp"
+        android:layout_marginLeft="11dp"
+        android:background="@drawable/register_back"/>
+    <RelativeLayout
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="12.67dp"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:background="@drawable/r_background"
+        >
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="24dp"
+            android:src="@drawable/register_logo_icon"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="40dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12.67dp"
+            android:src="@drawable/login_username_icon" />
+        <EditText
+            android:id="@+id/test_name"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15.67dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp"
+            android:textCursorDrawable="@drawable/cursor"
+            android:background="@null"
+            android:hint="请设置您的用户名"/>
+
+    </LinearLayout>
+    
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="1px"
+        android:layout_marginLeft="40dp"
+        android:background="#fff"/>
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="1px"
+        android:layout_marginLeft="40dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12.67dp"
+            android:src="@drawable/login_password_icon" />
+        <EditText
+            android:id="@+id/test_mima"
+            android:layout_width="206.66dp"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15.67dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_marginTop="6dp"
+            android:textSize="16sp"
+            android:inputType="textPassword"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/cursor"
+            android:hint="请输入您的密码"/>
+        <ImageView
+            android:id="@+id/q_id_register_see"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/registe_show_password_icon"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="1px"
+        android:layout_marginLeft="40dp"
+        android:background="#fff"/>
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="1px"
+        android:layout_marginLeft="40dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12.67dp"
+            android:src="@drawable/register_school_icon" />
+        <EditText
+            android:id="@+id/q_id_register_school"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="15.67dp"
+            android:layout_marginTop="6dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/cursor"
+            android:editable="false"
+            android:hint="大连理工大学软件学院"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="1px"
+        android:layout_marginLeft="40dp"
+        android:background="#fff"/>
+
+    <TextView
+        android:id="@+id/q_id_register_checkName"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp"
+        android:clickable="false"
+        android:textColor="#994839" />
+
+    <Button
+        android:id="@+id/test_btn"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="27.33dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="16sp"
+        android:background="@drawable/r_background"
+        android:text="点击进入手机验证"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>

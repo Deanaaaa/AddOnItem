@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/tabbar_top"/>
+
+
+    <include layout="@layout/line_h"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include layout="@layout/tabber_mine_phone"/>
+    <include layout="@layout/line_h"/>
+    <include layout="@layout/tabbar_mine_password"/>
+    <include layout="@layout/line_h"/>
+    <include layout="@layout/tabber_mine_address"/>
+    <include layout="@layout/line_h" />
+    <include layout="@layout/blank_1"/>
+    <include layout="@layout/tabber_mine_pass_order"/>
+    <include layout="@layout/line_h"/>
+    <include layout="@layout/tabber_mine_information"/>
+    <include layout="@layout/line_h"/>
+    <include layout="@layout/tabber_mine_us"/>
+    <include layout="@layout/line_h"/>
+    <include layout="@layout/blank_1"/>
+    <include layout="@layout/tabber_mine_quit"/>
+    <include layout="@layout/line_h"/>
+    </LinearLayout>
+
+
+</LinearLayout>
